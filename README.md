@@ -1,9 +1,7 @@
-# Nexus Connection - Github
+# Nexus Connection - AWS
 
 Nexus is a framework for connecting different services together that is made up of modules and connections.  This repo
-is a Github connection that can plug into any Nexus-based application.
-
-For full documentation on how to use this, visit the the [Nexus documentation here](https://nexus-switchboard.dev/content/connections/github)
+is a AWS connection that can plug into any Nexus-based application.
 
 ## Development
 
@@ -15,5 +13,5 @@ To make changes to this repo, fork and clone into a directory.  Then:
 
 The last step hooks your local npm cache to this project instead of pulling from the public NPM registry.   That way, in the project that uses this package, you can run (in the *other* project's directory, not this one):
 
-`npm link @nexus-switchboard/nexus-conn-github`
+`npm link @nexus-switchboard/nexus-conn-aws`
 
